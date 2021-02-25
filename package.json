@@ -1,0 +1,16 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/nodoubt0322-reading-note/hello-world.git",
+  "author": "Daniel.h <daniel.h@oaoooa.com>",
+  "license": "MIT",
+  "scripts": {
+    "serve": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "build:serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "vitepress": "^0.12.2"
+  }
+}
